@@ -89,12 +89,25 @@ h2 {
   padding: 1.25rem 0;
 }
 
+.filter li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.active {
+  color: white;
+}
+
 .card {
   padding-top: 2.25rem;
   background-repeat: no-repeat;
   background-position: 93% -0.25rem;
   border-radius: 1rem;
   background-size: 70px;
+}
+
+.card:hover {
+  cursor: pointer;
 }
 
 .report {
@@ -115,6 +128,10 @@ h2 {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+
+.options:hover {
+  cursor: pointer;
 }
 
 .previous {
