@@ -28,6 +28,11 @@ body {
   align-items: center;
 }
 
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
 ul {
   list-style: none;
 }
@@ -35,8 +40,7 @@ ul {
 .dashboard {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  width: 90%;
+  gap: 1.75rem;
   margin: 0 auto;
 }
 
@@ -67,4 +71,60 @@ ul {
   display: flex;
   justify-content: space-around;
   padding: 1.25rem 0;
+}
+
+.card {
+  padding-top: 2rem;
+  background-repeat: no-repeat;
+  background-position: 95% -0.85rem;
+  border-radius: 1rem;
+}
+
+.report {
+  background-color: var(--secondary-dark-blue);
+  display: flex;
+  align-items: center;
+  padding: 1.75rem 1.5rem;
+  border-radius: 1rem;
+  position: relative;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.report div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.work {
+  background-color: var(--primary-red);
+  background-image: url(./images/icon-work.svg);
+}
+
+.play {
+  background-color: var(--secondary-blue);
+  background-image: url(./images/icon-play.svg);
+}
+
+.study {
+  background-color: var(--secondary-red);
+  background-image: url(./images/icon-study.svg);
+}
+
+.exercise {
+  background-color: var(--primary-lime);
+  background-image: url(./images/icon-exercise.svg);
+}
+
+.social {
+  background-color: var(--primary-violet);
+  background-image: url(./images/icon-social.svg);
+}
+
+.self-care {
+  background-color: var(--primary-orange);
+  background-image: url(./images/icon-self-care.svg);
 }
