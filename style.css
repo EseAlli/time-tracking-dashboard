@@ -35,19 +35,29 @@ main {
 
 ul {
   list-style: none;
+  color: var(--desaturated-blue);
 }
 
 .dashboard {
   display: flex;
   flex-direction: column;
   gap: 1.75rem;
-  margin: 0 auto;
+  margin: 5rem 0;
 }
 
 .header {
   background-color: var(--secondary-dark-blue);
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+}
+
+.header p {
+  color: var(--pale-blue);
+}
+
+h1,
+h2 {
+  font-weight: 100;
 }
 
 .avatar {
@@ -67,6 +77,12 @@ ul {
   border-radius: 1rem;
 }
 
+.title div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
 .filter {
   display: flex;
   justify-content: space-around;
@@ -74,10 +90,11 @@ ul {
 }
 
 .card {
-  padding-top: 2rem;
+  padding-top: 2.25rem;
   background-repeat: no-repeat;
-  background-position: 95% -0.85rem;
+  background-position: 93% -0.25rem;
   border-radius: 1rem;
+  background-size: 70px;
 }
 
 .report {
@@ -97,6 +114,11 @@ ul {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+
+.previous {
+  color: var(--pale-blue);
+  font-size: 0.85rem;
 }
 
 .work {
