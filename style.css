@@ -68,7 +68,7 @@ h2 {
   border-radius: 9999px;
 }
 
-.title {
+.header-title {
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -77,7 +77,7 @@ h2 {
   border-radius: 1rem;
 }
 
-.title div {
+.header-title div {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
@@ -108,6 +108,13 @@ h2 {
 
 .card:hover {
   cursor: pointer;
+}
+
+.reports {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  justify-content: center;
 }
 
 .report {
@@ -188,7 +195,7 @@ h2 {
     margin-bottom: 1rem;
   }
 
-  .title {
+  .header-title {
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 3rem;
@@ -202,7 +209,7 @@ h2 {
   }
 
   .reports {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 1rem;
     max-width: 650px;
